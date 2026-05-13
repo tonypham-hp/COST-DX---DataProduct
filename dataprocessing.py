@@ -10,7 +10,7 @@ from pathlib import Path
 
 #update FY tu dong  
 def get_latest_budget_folder():
-    root_path = r"Data_Link"
+    root_path = r"    "
     
     if not os.path.exists(root_path):
         return None
@@ -49,10 +49,10 @@ def extract_and_clean_zip_files(folder, clean_zip=True):
         st.rerun()  
   
 
-extract_and_clean_zip_files(r"\\10.147.32.1\MA_Div\Data_Link")
+extract_and_clean_zip_files(r"   ")
 
 year = datetime.now().strftime('%y')
-FOLDER_BUDGET = fr"\\10.147.32.1\MA_Div\Data_Link\BUDGET FY{year}"  
+FOLDER_BUDGET = fr"    "  
 GROUP_PREFIX = {  
     'Assy':     [461, 462, 463, 464, 465, 469, 470, 474, 475, 476, 478, 480, 481, 484, 485, 486, 487, 488, 491, 492, 493, 494, 495],  
     'Control':  [312],  
