@@ -443,7 +443,7 @@ def main_xuatkho():
     st.markdown('<div class="main-header">🏭 TOTAL COST DX TRACKING SYSTEM</div>', 
                 unsafe_allow_html=True)
     
-    BASE_PATH = r"\\10.147.32.1\MA_Div\Data_Link\CostDX-BM-TH-ACT"
+    BASE_PATH = r"     "
     
     # Team selector
     selected_team = st.selectbox(
