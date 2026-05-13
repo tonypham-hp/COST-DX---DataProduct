@@ -26,7 +26,7 @@ from streamlit.components.v1 import html
 
 
 def rerun_processing():
-    extract_and_clean_zip_files(r"Data_Link")
+    extract_and_clean_zip_files(r"   ")
 rerun_processing()
 
 
@@ -74,7 +74,7 @@ def main_PC():
     if 'DETAILS OF TOTAL COST' in selected_folders:
         st.link_button(
             "Open Details of Total Cost", 
-            "http://10.122.72.1:8508/",
+            "     ",
             type="primary"
         )
         
